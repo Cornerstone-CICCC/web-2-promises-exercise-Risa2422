@@ -41,7 +41,9 @@ async function readDataFile() {
     console.log(
       `${firstName} ${lastName} is ${age} years old and his hobbies are ${hobbyList[0]} and ${hobbyList[1]}`
     );
-  } catch {}
+  } catch {
+    console.log("Somethin went wrong.");
+  }
 }
 
 readDataFile();
